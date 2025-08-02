@@ -4,7 +4,7 @@ app=Flask(__name__)
 @app.route("/")
 def index():
     return "Welcome to MRECW"
-@app.route(/home)
+@app.route("/home")
 def home():
     return "home page"
 if __name__=="__main__":
